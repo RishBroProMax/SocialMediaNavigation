@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Buttons | Rishmika</tittle>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <span class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+
+      <div class="media-icons">
+        <a href="https://tiktok.com/imrishmika" style="background: #e60023">
+          <i class="fa-brands fa-tiktok"></i>
+          <span class="tooltip" style="color: #e60023">TikTok</span>
+        </a>
+        <a href="https://linkedin.com/imrishmika" style="background: #0e76a8">
+          <i class="fa-brands fa-linkedin"></i>
+          <span class="tooltip" style="color: #0e76a8">Linkedin</span>
+        </a>
+        <a href="https://youtube.com/@Rish_bro" style="background: #ff0000">
+          <i class="fa-brands fa-youtube"></i>
+          <span class="tooltip" style="color: #ff0000">YouTube</span>
+        </a>
+        <a href="https://wa.me/+94719968844" style="background: #ea4689">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="tooltip" style="color: #ea4689">Gitlab</span>
+        </a>
+        <a href="https://github.com/RishbroProMax" style="background: #8e36ff">
+          <i class="fa-brands fa-github"></i>
+          <span class="tooltip" style="color: #8e36ff">Github</span>
+        </a>
+        <a href="https://ImRishmika1.t.me./" style="background: #4267b2">
+          <i class="fa-brands fa-telegram"></i>
+          <span class="tooltip" style="color: #4267b2">Telegram</span>
+        </a>
+        <a href="https://twitter.com/imrishmika" style="background: #1da1f2">
+          <i class="fa-brands fa-twitter"></i>
+          <span class="tooltip" style="color: #1da1f2">Twitter</span>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      const closeBtn = document.querySelector(".close-btn");
+
+      closeBtn.addEventListener("click", () => {
+        closeBtn.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
